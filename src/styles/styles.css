@@ -1,3 +1,15 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+body {
+    background-color: #121214;
+    color: #fff;
+    font-family: 'roboto';
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.shadow-outline-green {
+  box-shadow: 0 0 0 2px #00B37E;
+}

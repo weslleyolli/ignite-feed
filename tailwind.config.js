@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        green100: '#00B37E',
+        green500: '#00B37E',
         green200: '#00875F',
 
         gray100: '#E1E1E6',
@@ -21,7 +21,16 @@ export default {
         reddanger: '#F75A68',
 
         white: '#FFFFFF',
-      }
+      },
+      fontFamily: {
+        roboto: ['Roboto', 'Sans']
+      },
+      outline: {
+        '2px-solid-green': ['2px solid green500', '2px'],
+      },
+      spacing: {
+        'calcimage': 'calc(3rem + 12px)',
+      },
     },
   },
   plugins: [],
